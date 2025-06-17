@@ -33,7 +33,7 @@
 [string]$global:SysmonVersionUrl = "https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon"
 [string]$global:SysmonZipUrl = "https://download.sysinternals.com/files/Sysmon.zip"
 # MODIFIED: Updated to use your repository's config
-[string]$global:SysmonConfigUrl = "https://raw.githubusercontent.com/networkexpert-netxp/sysmon-configs/main/SysmonDeployScript_v1.ps1"
+[string]$global:SysmonConfigUrl = "https://raw.githubusercontent.com/networkexpert-netxp/sysmon-configs/refs/heads/main/sysmon_config.xml"
 # Used to test the current network status, by pionging an IP address and resolving a domain name. -- Can be changed.
 [string]$global:NetTestDnsName = "google.com"
 [string]$global:NetTestIpAddress = "8.8.8.8"
